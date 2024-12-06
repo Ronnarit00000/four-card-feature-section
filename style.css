@@ -88,14 +88,14 @@ select {
     font-size:   var(--fs-800);
     font-weight: var(--fw-extralight);
     color: hsl(var(--clr-neutral-900));
-    line-height: 1.5;
+    line-height: 1.4;
 }
 
 .intro .intro-title-second {
     font-size:   var(--fs-800);
     font-weight: var(--fw-semibold);
     color: hsl(var(--clr-neutral-900));
-    line-height: 1.35;
+    line-height: 1.4;
 }
 
 .intro .intro-info {
@@ -186,7 +186,7 @@ select {
 
 @media (min-width: calc(21.875rem * 2)) {
     .container {
-        padding-block: 76px;
+        padding-block: 5rem;
     }
 
     .feature {

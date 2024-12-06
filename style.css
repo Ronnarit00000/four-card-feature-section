@@ -88,16 +88,20 @@ select {
     font-size:   var(--fs-800);
     font-weight: var(--fw-extralight);
     color: hsl(var(--clr-neutral-900));
+    line-height: 1.5;
 }
 
 .intro .intro-title-second {
     font-size:   var(--fs-800);
     font-weight: var(--fw-semibold);
     color: hsl(var(--clr-neutral-900));
+    line-height: 1.35;
 }
 
 .intro .intro-info {
+    margin-block-start: 1.22rem;
     color: hsl(var(--clr-neutral-500));
+    line-height: 1.6;
 }
 
 /* feature box */
@@ -129,13 +133,14 @@ select {
     font-size:   var(--fs-700);
     font-weight: var(--fw-semibold);
     color:       var(--clr-title-item);
+    line-height: 1.4;
 }
 
 .item .info {
     align-self: start;
     font-size: var(--fs-300);
     color:     var(--clr-info-item);
-    margin-block-start: 0.5rem;
+    margin-block-start: 0.55rem;
     line-height: 23px;
 }
 
@@ -181,7 +186,7 @@ select {
 
 @media (min-width: calc(21.875rem * 2)) {
     .container {
-        padding-block: 5rem;
+        padding-block: 76px;
     }
 
     .feature {
